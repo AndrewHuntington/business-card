@@ -19,5 +19,6 @@ There are still quite a few things I wish to implement yet in this project.
 - Add some sort of highlight when a user hovers/focuses on a button
 - Implement Japanese support
 - Implement Spanish support (maybe)
+- Implement light/dark mode support
 - Create a QR code to easily share my card with smartphone users
 - The tests could be better, but I don't know if I'll get back to them
