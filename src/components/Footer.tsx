@@ -6,7 +6,7 @@ import tw from '../assets/icons/twitter.png';
 
 export default function Footer() {
   return (
-    <footer className=" mt-6 bg-[#161619] rounded-b-md">
+    <footer className=" mt-6 bg-[#161619] rounded-b-md mb-1.5">
       <div className="py-5 flex justify-center">
         <a
           href="https://twitter.com/andyh_1982"
