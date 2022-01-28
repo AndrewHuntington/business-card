@@ -22,5 +22,6 @@ There are still quite a few things I wish to implement yet in this project.
 - Edit Japanese to make sure it is as close to the English as possible while still sounding natural
 - Implement Spanish support (maybe)
 - Implement light/dark mode support
+- Change the favicon to something more appropriate than the CRA logo
 - Create a QR code to easily share my card with smartphone users
 - The tests could be better, but I don't know if I'll get back to them
