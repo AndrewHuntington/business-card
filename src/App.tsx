@@ -10,7 +10,7 @@ export const LanguageContext = React.createContext(english);
 
 function App() {
   return (
-    <div className="bg-[#23252C] py-3 h-full w-screen">
+    <div className="py-3 h-screen w-screen">
       <header>
         <nav className="text-white text-xs flex mb-1 justify-center">
           <button className="hover:underline focus:underline">
