@@ -17,7 +17,9 @@ Currently doubles as my personal website, since I did not like any of the design
 There are still quite a few things I wish to implement yet in this project.
 
 - Add some sort of highlight when a user hovers/focuses on a button
-- Implement Japanese support
+- Give some sort of indication of which language is chosen in the lanaguage selector (eg. an underline, highlighting the text, making it opaque, etc.)
+- ~~Implement Japanese support~~
+- Edit Japanese to make sure it is as close to the English as possible while still sounding natural
 - Implement Spanish support (maybe)
 - Implement light/dark mode support
 - Create a QR code to easily share my card with smartphone users
