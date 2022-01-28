@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { render, screen, RenderOptions } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { LanguageContext } from '../../App';
 import Info from '../Info';
 
