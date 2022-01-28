@@ -1,27 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Info from './components/Info';
 import About from './components/About';
 import Interests from './components/Interests';
 import Footer from './components/Footer';
 import { english } from './languages/english';
+import { japanese } from './languages/japanese';
 
-// TODO: add a way to change language
 export const LanguageContext = React.createContext(english);
 
 function App() {
+  const [language, setLanguage] = useState(english);
+
   return (
     <div className="py-3 h-screen w-screen">
       <header>
         <nav className="text-white text-xs flex mb-1 justify-center">
-          <button className="hover:underline focus:underline">
+          <button
+            className="hover:underline focus:underline"
+            onClick={() => setLanguage(english)}
+          >
             English 🇺🇸
           </button>
           <p className="mx-1">/</p>
-          <button className="hover:underline focus:underline">日本語 🇯🇵</button>
+          <button
+            className="hover:underline focus:underline"
+            onClick={() => setLanguage(japanese)}
+          >
+            日本語 🇯🇵
+          </button>
         </nav>
       </header>
       <div className="w-[317px] h-[780px] rounded-xl mx-auto bg-[#1A1B21]">
-        <LanguageContext.Provider value={english}>
+        <LanguageContext.Provider value={language}>
           <main>
             <section>
               <Info />

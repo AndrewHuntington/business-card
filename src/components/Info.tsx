@@ -8,7 +8,11 @@ export default function Info() {
   return (
     <div className="text-center">
       <img src={profilePic} className="rounded-t-xl w-full" alt="head shot" />
-      <h1 className="name text-2xl font-bold text-white mt-5 mb-1">
+      <h1
+        className={`name ${
+          language.name === 'Andrew Huntington' ? `text-2xl` : `text-xl`
+        } font-bold text-white mt-5 mb-1`}
+      >
         {language.name}
       </h1>
       <h3 className="position text-[13px] text-[#F3BF99] mb-2">
