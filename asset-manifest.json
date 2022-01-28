@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Deploy/static/css/main.0a51da1e.css",
-    "main.js": "/React-Deploy/static/js/main.834b1684.js",
-    "static/js/787.bc412fff.chunk.js": "/React-Deploy/static/js/787.bc412fff.chunk.js",
-    "static/media/profile.png": "/React-Deploy/static/media/profile.87a59561c0f8e2578792.png",
-    "index.html": "/React-Deploy/index.html",
-    "main.0a51da1e.css.map": "/React-Deploy/static/css/main.0a51da1e.css.map",
-    "main.834b1684.js.map": "/React-Deploy/static/js/main.834b1684.js.map",
-    "787.bc412fff.chunk.js.map": "/React-Deploy/static/js/787.bc412fff.chunk.js.map"
+    "main.css": "/business-card/static/css/main.0a51da1e.css",
+    "main.js": "/business-card/static/js/main.8afcb58f.js",
+    "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
+    "static/media/profile.png": "/business-card/static/media/profile.87a59561c0f8e2578792.png",
+    "index.html": "/business-card/index.html",
+    "main.0a51da1e.css.map": "/business-card/static/css/main.0a51da1e.css.map",
+    "main.8afcb58f.js.map": "/business-card/static/js/main.8afcb58f.js.map",
+    "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a51da1e.css",
-    "static/js/main.834b1684.js"
+    "static/js/main.8afcb58f.js"
   ]
 }
