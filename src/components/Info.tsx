@@ -19,10 +19,12 @@ export default function Info() {
         {language.job}
       </h3>
       <a
-        href="https://andrewhuntington.com"
+        href="https://andrewhuntington.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="hover:underline text-[#F5F5F5]"
       >
-        <h4 className="website text-[10px] mb-4">andrewhuntington.com</h4>
+        <h4 className="website text-[10px] mb-4">{language.portfolio}</h4>
       </a>
       <div>
         <button className="shadow-sm w-[116px] bg-white py-1.5 font-medium text-sm text-[#374151] rounded-md">

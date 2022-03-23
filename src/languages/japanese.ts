@@ -7,4 +7,5 @@ export const japanese: Record<string, string> = {
   interests: '趣味',
   interestsContent:
     '音楽鑑賞、読書、ビデオゲーム、コンピュータプログラミング、日本語、スペイン語、翻訳。',
+  portfolio: 'ポートフォリオ',
 };

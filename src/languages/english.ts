@@ -7,4 +7,5 @@ export const english: Record<string, string> = {
   interests: 'Interests',
   interestsContent:
     'Music. Reading. Video Games. Computer programming. Japanese. Spanish. Translation.',
+  portfolio: 'Portfolio',
 };
