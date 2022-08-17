@@ -7,7 +7,7 @@ export default function Info() {
 
   return (
     <div className="text-center">
-      <img src={profilePic} className="rounded-t-xl w-full" alt="head shot" />
+      <img src={profilePic} className="w-full rounded-t-xl" alt="head shot" />
       <h1
         className={`name ${
           language.name === 'Andrew Huntington' ? `text-2xl` : `text-xl`
@@ -19,7 +19,7 @@ export default function Info() {
         {language.job}
       </h3>
       <a
-        href="https://andrewhuntington.netlify.app/"
+        href="https://github.com/AndrewHuntington"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:underline text-[#F5F5F5]"
@@ -34,7 +34,7 @@ export default function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fas fa-envelope mr-2 w-4 h-4"></i>
+            <i className="w-4 h-4 mr-2 fas fa-envelope"></i>
             Email
           </a>
         </button>
@@ -44,7 +44,7 @@ export default function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-linkedin mr-2 w-4 h-4"></i>
+            <i className="w-4 h-4 mr-2 fab fa-linkedin"></i>
             LinkedIn
           </a>
         </button>
